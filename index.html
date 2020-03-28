@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b99b5d7a6.js" crossorigin="anonymous"></script>
     <title>Robotics Society|KGEC </title>
 </head>
 
@@ -16,12 +17,16 @@
         <!-- NavBar -->
         <nav>
             <img src="./Images/70753682_105560950843618_2756290035232800768_o.jpg" alt="Logo" class="Navbar-Logo">
+
             <ul class="nav-items">
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Registration</a></li>
+                <li class="nav-link"><a href="#">Achievements</a></li>
+                <li class="nav-link"><a href="#">Projects</a></li>
+                <li class="nav-link"><a href="#">Registration</a></li>
             </ul>
-            <button class="contact-button">Contact Us</button>
+            <button class="contact-button"><span> Contact Us</span></button>
+            <div class="ham" onclick="toggle_ham()">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
         </nav>
     </header>
     <script src="index.js"></script>
