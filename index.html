@@ -71,11 +71,53 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>Basic Information</h2>
+                    <h2>Your Basic Information</h2>
                 </div>
                 <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
+                    <div class="reg-form">
+                        <form action="">
+                            <label for="first-name" class="first-name disp-block w-100">First Name:</label>
+                            <input type="text" id="first-name" class="disp-block w-100">
+                            <label for="last-name" class="last-name  disp-block w-100">Last Name:</label>
+
+                            <input type="text" id="last-name" class="disp-block w-100">
+                            <label for="dob" class="disp-block">Date of Birth:</label>
+                            <input type="date" name="" id="dob" class="disp-block w-100">
+
+                            <label for="stream" class="disp-block w-100">Stream:</label>
+                            <div>
+                                <input type="radio" name="stream" id="cse">
+                                <label for="cse" class="p-10">C.S.E</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="stream" id="it">
+                                <label for="it" class="p-10">I.T</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="stream" id="me">
+                                <label for="me" class="p-10">M.E</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="stream" id="ee">
+                                <label for="ee" class="p-10">E.E</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="stream" id="ece">
+                                <label for="ece" class="p-10">E.C.E</label>
+                            </div>
+
+                            <label for="year" class="disp-block w-100">Year:</label>
+                            <select name="Year" id="year" class="disp-block w-100">
+                                <option value="1st">1st Year</option>
+                                <option value="1st">2nd Year</option>
+                                <option value="1st">3rd Year</option>
+                                <option value="1st">4th Year</option>
+                            </select>
+                            <div class="centre">
+                                <button type="submit" class="submit-button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <!-- <div class="modal-footer">
                     <h3>Modal Footer</h3>

@@ -138,7 +138,7 @@ nav {
     padding: 0;
     border: 1px solid #888;
     border-radius: 10px;
-    width: 80%;
+    width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -188,7 +188,7 @@ nav {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #ad62aa;
+    background-color: #413c69;
     color: white;
     border-radius: 8px;
 }
@@ -202,6 +202,42 @@ nav {
     background-color: #ad62aa;
     color: white;
 }
+
+.disp-block {
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    border-style: none;
+    border-radius: 50px;
+    margin: 12px;
+    cursor: pointer;
+    padding: 7px 30px;
+    background-color: rgba(74, 71, 163, 0.8)
+}
+
+.submit-button:hover {
+    background-color: rgba(74, 71, 163, 0.6)
+}
+
+/* form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px; */
 
 /* Media-Query */
 
