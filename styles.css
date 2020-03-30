@@ -87,12 +87,12 @@ nav {
     width: 80%;
     margin: 15% auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     margin: 15% auto;
     grid-gap: 10px;
 }
 
-}
+
 
 .about-content {
     margin: auto;
@@ -223,21 +223,65 @@ nav {
 
 .submit-button {
     border-style: none;
-    border-radius: 50px;
+    border-radius: 8px;
     margin: 12px;
     cursor: pointer;
     padding: 7px 30px;
-    background-color: rgba(74, 71, 163, 0.8)
+    background-color: rgba(74, 71, 163, 0.8);
 }
 
 .submit-button:hover {
-    background-color: rgba(74, 71, 163, 0.6)
+    background-color: rgba(74, 71, 163, 0.6);
 }
 
 /* form {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 10px; */
+
+#team {
+    width: 80%;
+    margin: auto;
+}
+
+.team-container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 15px; */
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member {
+    max-width: 350px;
+    margin: 15px;
+    padding: 10px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px rgba(74, 71, 163, 0.4);
+
+}
+
+
+.mem-img {
+    display: block;
+    width: 40%;
+
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.team-member h2 {
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+}
 
 /* Media-Query */
 
@@ -281,7 +325,7 @@ nav {
 
     .disp-block {
         display: block;
-        transition: all 1s ease;
+        transition: display 1s ease;
     }
 
 
@@ -295,5 +339,17 @@ nav {
 
     .about {
         grid-gap: 80px;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+
+    /* Team */
+
+    .team-row {
+        display: flex;
+        flex-direction: column;
     }
 }
