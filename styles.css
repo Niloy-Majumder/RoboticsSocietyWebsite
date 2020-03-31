@@ -59,12 +59,14 @@ nav {
     font-size: 1.1em;
     text-decoration: none;
     color: black;
+
 }
 
 .contact-button:hover {
     background-color: rgba(74, 71, 163, 0.6);
 
 }
+
 
 .ham {
     display: none;
@@ -246,6 +248,14 @@ nav {
     margin: auto;
 }
 
+#team h1 {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    padding: 8%;
+    color: rgba(74, 71, 163, 1);
+}
+
 .team-container {
 
     display: grid;
@@ -350,6 +360,8 @@ nav {
     .contact-button {
         display: none;
         border-radius: 10px;
+        text-align: center;
+        padding: 10px 0;
         width: 100%;
 
 
